@@ -78,11 +78,7 @@ export const Methodology: React.FC = () => {
       </div>
 
       {/* Grid coordinates indicators in bottom margin */}
-      <div className="mt-20 flex justify-between font-mono text-[9px] text-outline uppercase tracking-widest pt-4 border-t border-deep-charcoal/5">
-        <span>REF: SCALE_1-100</span>
-        <span className="hidden sm:block">GRID REF: AS-M3</span>
-        <span>LATERAL_CALC: COMPLETE</span>
-      </div>
+      <div className="mt-20 pt-4 border-t border-deep-charcoal/5" />
     </section>
   );
 };

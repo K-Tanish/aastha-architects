@@ -41,15 +41,7 @@ export default function App() {
   return (
     <div className="min-h-screen bg-background text-deep-charcoal font-sans selection:bg-champagne-glint selection:text-deep-charcoal relative">
       
-      {/* Structural background coordinate indicators in viewport corners (Aesthetic details) */}
-      <div className="fixed top-24 left-4 z-40 hidden xl:flex flex-col space-y-1 font-mono text-[8px] text-deep-charcoal/20 pointer-events-none uppercase tracking-widest">
-        <span>SYS: ONLINE</span>
-        <span>LAT: 18.52° N</span>
-      </div>
-      <div className="fixed bottom-12 left-4 z-40 hidden xl:flex flex-col space-y-1 font-mono text-[8px] text-deep-charcoal/20 pointer-events-none uppercase tracking-widest">
-        <span>GRID: AS-MMXXII</span>
-        <span>SCALE: 1:1</span>
-      </div>
+
 
       {/* Navigation Header */}
       <Header 
