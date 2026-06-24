@@ -1,0 +1,6 @@
+{
+  "name": "Aastha Architecture & Interiors",
+  "description": "A highly polished, minimalist portfolio and contact interface for Aastha Architecture & Interiors.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

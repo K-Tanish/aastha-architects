@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Montserrat", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", ui-serif, Georgia, serif;
+  
+  --color-background: #F9F9F8;
+  --color-on-background: #1A1A1A;
+  --color-champagne-glint: #A38A56;
+  --color-deep-charcoal: #1A1A1A;
+  --color-soft-linen: #F1F0EE;
+  --color-warm-stone: #E5E4E1;
+  
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #F5F4F2;
+  --color-surface-container: #ECEBE9;
+  --color-surface-container-high: #E2E1DE;
+  --color-surface-container-highest: #D8D7D3;
+  --color-on-surface-variant: #4A4A48;
+  
+  --color-outline: #A0A09F;
+  --color-outline-variant: rgba(26, 26, 26, 0.05);
+  --color-primary: #1A1A1A;
+  --color-primary-container: #262626;
+  --color-on-primary-fixed-variant: #4A4A48;
+}
+
+/* Custom styles matching the wireframes */
+.blueprint-line {
+  height: 1px;
+  background: rgba(26, 26, 26, 0.05);
+  position: relative;
+}
+
+.blueprint-divider {
+  position: relative;
+  height: 1px;
+  width: 100%;
+  background-color: rgba(26, 26, 26, 0.05);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F9F9F8;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1A1A1A;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #A38A56;
+}
+
